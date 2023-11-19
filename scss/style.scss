@@ -1,0 +1,664 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 120rem;
+    width: 100%;
+}
+
+
+
+
+.users {
+    .line {
+        height: 13rem;
+        background: linear-gradient(180deg, rgba(217, 217, 217, 0.07) 0%, #FF6C02 77.6%);
+    }
+
+    .ti {
+        .bg-blur {
+            background-image: radial-gradient(30.22% 30.22% at 50% 50%, rgba(17, 17, 17, 0.33) 0%, rgba(114, 114, 114, 0.00) 100%);
+            ;
+
+        }
+    }
+
+
+}
+
+.describe {
+
+    .line {
+        height: 18rem;
+        background: linear-gradient(180deg, rgba(255, 92, 0, 0.88) 0%, #FFE500 100%);
+
+
+    }
+
+    .ti {
+        .bg-blur {
+            background-image: radial-gradient(35.79% 31.32% at 50% 50%, rgba(244, 102, 0, 0.306) 0%, rgba(255, 115, 14, 0.00) 100%);
+
+        }
+    }
+
+
+}
+
+.map {
+    .line {
+        height: 13rem;
+        background: linear-gradient(180deg, rgba(255, 229, 0, 0.88) 0%, #0FC100 100%);
+    }
+
+    .ti {
+        .bg-blur {
+            background-image: radial-gradient(30.22% 30.22% at 50% 50%, rgba(244, 220, 0, 0.33) 0%, rgba(255, 231, 14, 0.00) 100%);
+
+        }
+    }
+
+
+}
+
+.contact {
+
+    .line {
+        height: 8rem;
+        background: linear-gradient(180deg, rgba(15, 193, 0, 0.88) 0%, #0988FE 100%);
+    }
+
+    .ti {
+        .bg-blur {
+            background-image: radial-gradient(30.22% 30.22% at 50% 50%, rgba(107, 244, 0, 0.33) 0%, rgba(149, 255, 14, 0.00) 100%);
+
+
+
+        }
+    }
+
+
+
+}
+
+.price {
+
+    .line {
+        background: linear-gradient(180deg, #0988FE 0%, rgba(165, 50, 255, 0.88) 100%);
+    }
+
+    .ti {
+        .bg-blur {
+            background-image: radial-gradient(30.22% 30.22% at 50% 50%, rgba(0, 127, 244, 0.33) 0%, rgba(14, 110, 255, 0.00) 100%);
+
+        }
+    }
+
+
+
+}
+
+.calendar {
+    .line {
+        height: 8rem;
+        background: linear-gradient(180deg, #0988FE 0%, rgba(165, 50, 255, 0.88) 100%);
+    }
+
+    .ti {
+        .bg-blur {
+            background-image: radial-gradient(30.22% 30.22% at 50% 50%, rgba(166, 0, 244, 0.33) 0%, rgba(14, 110, 255, 0.00) 100%);
+
+        }
+    }
+
+
+}
+
+.text-box {
+
+    p {
+        font-size: 1.4rem;
+        padding: 1rem;
+        padding-top: 1.4rem;
+        text-align: justify;
+    }
+}
+
+.maciej {
+    background: url("../img/Talar.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.jakub {
+    background: url("../img/KUBAzm2.jpg");
+    background-size: cover;
+    background-position: 0 20%;
+    margin: 0 auto;
+
+}
+
+.dot-red {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.81);
+    box-shadow: (0px 0px 15px rgba(255, 0, 0, 0.65));
+    ;
+}
+
+.dot-green {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: rgba(24, 160, 12, 0.81);
+
+    box-shadow: (0px 0px 20px rgba(25, 141, 6, 0.84));
+    ;
+}
+
+h2 {
+    padding-top: 0.6rem;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.photo-container {
+    position: relative;
+    width: 100%;
+    height: 30rem;
+
+    h1 {
+        position: relative;
+        padding: 1.3rem;
+        padding-bottom: 0;
+        font-size: 3.2rem;
+        font-weight: 800;
+        color: transparent;
+        background: linear-gradient(90deg, #B5B1B1 0%, rgba(219, 206, 206, 0.60) 100%);
+        background-clip: text;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+
+
+    .hero-img {
+        position: absolute;
+        width: 100%;
+        height: 34rem;
+        background: url('../img/prague-bg.jpg');
+        background-position: 0% 10%;
+        background-size: cover;
+    }
+
+
+
+    .hero-img::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, .3);
+    }
+}
+
+
+.pc {
+    display: none;
+}
+
+.phone {
+    display: block;
+
+    .title {
+        margin-top: 6rem;
+
+        font-size: 2rem;
+        font-weight: bold;
+        color: #2b2b2b;
+        text-align: center;
+    }
+
+    .profile-img-box {
+        width: 100%;
+        height: 40rem;
+        max-width: 36rem;
+        margin-bottom: 1rem;
+        background-color: #DDD;
+        border-radius: 1.5rem;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        padding-top: 0;
+
+        .path {
+
+
+            .message-box {
+                display: flex;
+                flex-direction: row;
+
+                .line-box {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 15%;
+
+                    .ti {
+                        position: relative;
+                        padding: 1.5rem 0;
+                        font-size: 4rem;
+
+
+                        .bg-blur {
+                            position: absolute;
+                            top: -1rem;
+                            left: -2.5rem;
+                            width: 9rem;
+                            height: 9rem;
+
+
+                        }
+                    }
+
+
+                    .line {
+                        width: 0.3rem;
+                        height: 13rem;
+                        border-radius: 1.5rem;
+                    }
+
+
+
+                }
+
+                .describe {
+                    .line {
+                        height: 25rem;
+                    }
+
+                }
+
+                .contact {
+                    .line {
+                        height: 10rem;
+                    }
+
+                }
+
+                .text-box {
+                    width: 85%;
+
+                    p {
+                        font-size: 1.4rem;
+                        padding: 1rem;
+                        padding-top: 1.5rem;
+                        text-align: justify;
+                    }
+                }
+
+
+            }
+
+
+        }
+    }
+
+
+
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    padding-top: 0;
+
+    .calendar-box {
+        position: relative;
+        width: 100%;
+        max-width: 55rem;
+        height: 16rem;
+        background: #070707;
+        box-shadow: 4px 10px 20px 0px rgba(0, 0, 0, 0.73);
+        border-radius: 1.5rem;
+
+        h2 {
+            padding-top: 1rem;
+            font-size: 2rem;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        .page {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+
+            .date-box {
+                width: 90%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                .date-section {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 0 1rem;
+
+
+                    .day {
+                        color: #D1D1D1;
+                        font-size: 1.3rem;
+                        text-transform: uppercase;
+                    }
+
+                    .day-number {
+                        color: #fff;
+                        font-size: 2rem;
+                        font-weight: bold;
+                    }
+
+                }
+
+
+            }
+
+            .arrow {
+                position: absolute;
+                top: 6rem;
+                color: #D1BDBD;
+                font-size: 1.9rem;
+                cursor: pointer;
+
+            }
+
+            .previous-date {
+                left: 1.5rem;
+            }
+
+            .next-date {
+                right: 1.5rem;
+            }
+
+            .group {
+                position: absolute;
+                left: 2.3rem;
+                color: #D1D1D1;
+                font-size: 1.5em;
+            }
+
+            .one {
+                top: 8.6rem;
+            }
+
+            .two {
+                top: 11.6rem;
+                left: 2.1rem;
+            }
+
+        }
+
+    }
+
+}
+
+.calendar-legend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+
+    .box-calendar {
+        font-size: 1.4rem;
+        width: 100%;
+        padding-bottom: 1rem;
+        text-align: justify;
+    }
+
+    .box {
+        font-size: 1.4rem;
+        // padding-bottom: 1rem;
+
+        .legend-box {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-bottom: 1rem;
+
+            p {
+                font-size: 1.2rem;
+            }
+        }
+
+    }
+}
+
+footer {
+    height: 4rem;
+    background-color: #000;
+
+    p {
+        color: #fff;
+        line-height: 4rem;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+
+
+@media(min-width:768px) {
+    .photo-container {
+
+        h1 {
+            font-size: 4.5rem;
+
+        }
+
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .pc {
+        display: block;
+
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 2rem;
+        padding-top: 7rem;
+
+
+        .side-box {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 40rem;
+            max-height: 100rem;
+
+            .profile-img-box {
+                width: 100%;
+                height: 40rem;
+                max-width: 36rem;
+                margin-top: 2rem;
+                background-color: #DDD;
+                border-radius: 1.5rem;
+            }
+
+
+        }
+
+        .path {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 20%;
+            margin-top: 26rem;
+
+            .line-box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .ti {
+                    position: relative;
+                    font-size: 4rem;
+                    padding: 1.5rem 0;
+
+
+                    .bg-blur {
+                        position: absolute;
+                        top: -1rem;
+                        left: -2.5rem;
+                        width: 9rem;
+                        height: 9rem;
+
+                    }
+                }
+
+
+                .line {
+                    width: 0.3rem;
+                    border-radius: 1.5rem;
+                }
+
+                .price-text {
+                    font-size: 1.4rem;
+                    width: 40rem;
+                    padding-bottom: 2rem;
+                    text-align: center;
+                }
+            }
+
+
+        }
+
+
+
+
+    }
+
+    .calendar-container {
+        padding-top: 0;
+
+        .calendar-box {
+            height: 22rem;
+
+            h2 {
+                font-size: 3rem;
+            }
+
+            .page {
+
+                .date-box {
+
+
+                    .date-section {
+
+
+
+                        .day {
+                            font-size: 1.5rem;
+                        }
+
+                        .day-number {
+                            font-size: 4rem;
+                        }
+
+                        .dot-red {
+                            width: 1.7rem;
+                            height: 1.7rem;
+                        }
+
+                        .dot-green {
+                            width: 1.7rem;
+                            height: 1.7rem;
+                        }
+
+
+                    }
+
+
+                }
+
+                .arrow {
+                    top: 9rem;
+                    font-size: 2.4rem;
+
+                }
+
+                .previous-date {
+                    left: 3.5rem;
+                }
+
+                .next-date {
+                    right: 3.5rem;
+                }
+
+                .group {
+                    font-size: 2rem;
+                    left: 4.5rem;
+                }
+
+                .one {
+                    top: 13.2rem;
+                }
+
+                .two {
+                    top: 16.3rem;
+                    left: 4.2rem;
+                }
+
+            }
+
+
+        }
+    }
+
+    .calendar-legend {
+        .box-calendar {
+            font-size: 1.4rem;
+            width: 58rem;
+            padding-bottom: 1rem;
+            text-align: center;
+        }
+    }
+
+}
+
+@media(min-width:1200px) {
+    .photo-container {
+
+        h1 {
+            font-size: 6rem;
+
+        }
+    }
+
+}
