@@ -18,30 +18,33 @@ body {
     width: 100%;
 }
 
-
-
-
-.users {
-    .line {
-        height: 13rem;
-        background: linear-gradient(180deg, rgba(217, 217, 217, 0.07) 0%, #FF6C02 77.6%);
-    }
-
-    .ti {
-        .bg-blur {
-            background-image: radial-gradient(30.22% 30.22% at 50% 50%, rgba(17, 17, 17, 0.33) 0%, rgba(114, 114, 114, 0.00) 100%);
-            ;
-
-        }
-    }
-
-
+.hide {
+    display: none !important;
 }
 
-.describe {
+
+
+// .users {
+//     .line {
+//         height: 203rem;
+//         background: linear-gradient(180deg, rgba(217, 217, 217, 0.07) 0%, #FF6C02 77.6%);
+//     }
+
+//     .ti {
+//         .bg-blur {
+//             background-image: radial-gradient(30.22% 30.22% at 50% 50%, rgba(17, 17, 17, 0.33) 0%, rgba(114, 114, 114, 0.00) 100%);
+//             ;
+
+//         }
+//     }
+
+
+// }
+
+.map {
 
     .line {
-        height: 18rem;
+        height: 32rem;
         background: linear-gradient(180deg, rgba(255, 92, 0, 0.88) 0%, #FFE500 100%);
 
 
@@ -57,9 +60,9 @@ body {
 
 }
 
-.map {
+.users {
     .line {
-        height: 13rem;
+        height: 21rem;
         background: linear-gradient(180deg, rgba(255, 229, 0, 0.88) 0%, #0FC100 100%);
     }
 
@@ -76,7 +79,7 @@ body {
 .contact {
 
     .line {
-        height: 8rem;
+        height: 5rem;
         background: linear-gradient(180deg, rgba(15, 193, 0, 0.88) 0%, #0988FE 100%);
     }
 
@@ -134,6 +137,16 @@ body {
         padding-top: 1.4rem;
         text-align: justify;
     }
+}
+
+
+.title {
+    margin-top: 6rem;
+
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2b2b2b;
+    text-align: center;
 }
 
 .maciej {
@@ -201,7 +214,7 @@ h2 {
         width: 100%;
         height: 34rem;
         background: url('../img/prague-bg.jpg');
-        background-position: 0% 10%;
+        background-position: 0% 61%;
         background-size: cover;
     }
 
@@ -224,14 +237,6 @@ h2 {
 .phone {
     display: block;
 
-    .title {
-        margin-top: 6rem;
-
-        font-size: 2rem;
-        font-weight: bold;
-        color: #2b2b2b;
-        text-align: center;
-    }
 
     .profile-img-box {
         width: 100%;
@@ -245,8 +250,7 @@ h2 {
     .about-container {
         display: flex;
         flex-direction: column;
-        padding: 2rem;
-        padding-top: 0;
+        padding: 0 2rem;
 
         .path {
 
@@ -298,7 +302,7 @@ h2 {
 
                 .contact {
                     .line {
-                        height: 10rem;
+                        height: 5rem;
                     }
 
                 }
@@ -334,7 +338,7 @@ h2 {
     .calendar-box {
         position: relative;
         width: 100%;
-        max-width: 55rem;
+        max-width: 40rem;
         height: 16rem;
         background: #070707;
         box-shadow: 4px 10px 20px 0px rgba(0, 0, 0, 0.73);
@@ -363,6 +367,7 @@ h2 {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
+                    width: 4.5rem;
                     padding: 0 1rem;
 
 
@@ -386,9 +391,19 @@ h2 {
             .arrow {
                 position: absolute;
                 top: 6rem;
-                color: #D1BDBD;
+                color: #b8a6a6;
                 font-size: 1.9rem;
                 cursor: pointer;
+                transition: color .3s;
+            }
+
+            .arrow:hover {
+                color: #d4d3d3;
+
+            }
+
+            .arrow:active {
+                color: #ffffff;
 
             }
 
@@ -427,7 +442,8 @@ h2 {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 2rem;
+    padding: 3rem;
+    padding-top: 0;
 
     .box-calendar {
         font-size: 1.4rem;
@@ -447,7 +463,16 @@ h2 {
             padding-bottom: 1rem;
 
             p {
+                position: relative;
+                left: 0.4rem;
                 font-size: 1.2rem;
+            }
+
+            span {
+
+                color: #6b6b6b;
+                font-size: 1.4rem;
+
             }
         }
 
@@ -492,7 +517,7 @@ footer {
         flex-direction: row;
         justify-content: center;
         padding: 2rem;
-        padding-top: 7rem;
+        // padding-top: 7rem;
 
 
         .side-box {
@@ -519,7 +544,7 @@ footer {
             flex-direction: column;
             align-items: center;
             width: 20%;
-            margin-top: 26rem;
+            // margin-top: 26rem;
 
             .line-box {
                 display: flex;
@@ -552,7 +577,7 @@ footer {
                     font-size: 1.4rem;
                     width: 40rem;
                     padding-bottom: 2rem;
-                    text-align: center;
+                    text-align: justify;
                 }
             }
 
@@ -569,6 +594,8 @@ footer {
 
         .calendar-box {
             height: 22rem;
+            max-width: 55rem;
+
 
             h2 {
                 font-size: 3rem;
@@ -580,7 +607,7 @@ footer {
 
 
                     .date-section {
-
+                        width: 6rem;
 
 
                         .day {
@@ -612,6 +639,7 @@ footer {
                     font-size: 2.4rem;
 
                 }
+
 
                 .previous-date {
                     left: 3.5rem;
@@ -646,7 +674,7 @@ footer {
             font-size: 1.4rem;
             width: 58rem;
             padding-bottom: 1rem;
-            text-align: center;
+            text-align: justify;
         }
     }
 
