@@ -70,7 +70,8 @@ body {
 
 .title {
   margin-top: 6rem;
-  font-size: 2rem;
+  padding: 1rem;
+  font-size: 2.3rem;
   font-weight: bold;
   color: #2b2b2b;
   text-align: center;
@@ -124,7 +125,7 @@ h2 {
   font-size: 3.2rem;
   font-weight: 800;
   color: transparent;
-  background: linear-gradient(90deg, #B5B1B1 0%, rgba(219, 206, 206, 0.6) 100%);
+  background: linear-gradient(90deg, #c8c4c4 0%, rgba(219, 206, 206, 0.6) 100%);
   -webkit-background-clip: text;
           background-clip: text;
   text-transform: uppercase;
@@ -194,7 +195,7 @@ h2 {
   border-radius: 1.5rem;
 }
 .phone .about-container .path .message-box .describe .line {
-  height: 25rem;
+  height: 23rem;
 }
 .phone .about-container .path .message-box .contact .line {
   height: 5rem;
@@ -337,6 +338,14 @@ footer p {
   font-weight: bold;
 }
 
+@media (max-width: 880px) {
+  .pc .about-container .side-box .height-box {
+    height: 28rem !important;
+  }
+  .users .line {
+    height: 28rem;
+  }
+}
 @media (min-width: 768px) {
   .photo-container h1 {
     font-size: 4.5rem;
