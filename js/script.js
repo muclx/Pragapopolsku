@@ -4,7 +4,6 @@ const previousBtn = document.querySelectorAll(".previous-date")
 const slides = document.querySelectorAll(".page")
 let numberSlide = 0;
 
-
 const changeNextCalendarDate = () => {
     if (numberSlide < slides.length) {
         slides[numberSlide].classList.add("hide")
@@ -20,6 +19,7 @@ const changePreviousCalendarDate = () => {
         slides[numberSlide].classList.remove("hide")
     }
 }
+
 
 
 nextBtn.forEach(btn => btn.addEventListener("click", changeNextCalendarDate))
