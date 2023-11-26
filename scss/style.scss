@@ -328,26 +328,6 @@ h2 {
         box-shadow: 4px 10px 20px 0px rgba(0, 0, 0, 0.73);
         border-radius: 1.5rem;
 
-        .login-box {
-            position: absolute;
-            top: 8%;
-            right: 5%;
-
-            i {
-                font-size: 2rem;
-                color: #D1D1D1;
-                cursor: pointer;
-            }
-
-            .password-box {
-                position: absolute;
-                top: -6rem;
-                right: -2rem;
-                border-radius: 1.5rem;
-                background-color: #000;
-                padding: 1rem;
-            }
-        }
 
         h2 {
             padding-top: 1rem;
