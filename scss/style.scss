@@ -114,6 +114,10 @@ body {
 }
 
 .text-box {
+    a {
+        color: #000;
+        // text-decoration: none;
+    }
 
     p {
         font-size: 1.4rem;
@@ -198,7 +202,7 @@ h2 {
         width: 100%;
         height: 34rem;
         background: url('../img/prague-bg.jpg');
-        background-position: 0% 61%;
+        background-position: 0% 18%;
         background-size: cover;
     }
 
@@ -221,6 +225,13 @@ h2 {
 .phone {
     display: block;
 
+    .jakub {
+        background: url("../img/Kuba-small.jpg");
+        background-size: cover;
+        background-position: 0 20%;
+        margin: 0 auto;
+
+    }
 
     .profile-img-box {
         width: 100%;
@@ -294,10 +305,10 @@ h2 {
                 .text-box {
                     width: 85%;
 
+
                     p {
                         font-size: 1.4rem;
                         padding: 1rem;
-                        padding-top: 1.5rem;
                         text-align: justify;
                     }
                 }
