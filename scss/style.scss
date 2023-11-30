@@ -365,8 +365,8 @@ h2 {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    width: 4.5rem;
-                    padding: 0 1rem;
+                    // width: 4rem;
+                    padding: 0 .6rem;
 
 
                     .day {
@@ -486,6 +486,37 @@ footer {
         line-height: 4rem;
         text-align: center;
         font-weight: bold;
+    }
+}
+
+@media(min-width:360px) {
+    .calendar-container {
+
+
+        .calendar-box {
+
+
+            .page {
+
+
+                .date-box {
+
+                    .date-section {
+
+                        width: 4.2rem;
+                        padding: 0 1rem;
+
+                    }
+
+
+                }
+
+
+
+            }
+
+        }
+
     }
 }
 
